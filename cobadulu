@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>web pembelajaran</title>
+</head>
+<body>
+    <h1 style="font-family: Arial, Helvetica, sans-serif; color: brown; text-align: center;">WEB PEMBELAJARAN TP</h1>
+    <h2>Kelas A2</h2>
+    <h3>Hari Selasa</h3>
+    <h4>Pukul 09.20</h4>
+    <h5>Oleh Ibu Dian</h5>
+    <h6>Mantappp</h6>
+    <p style="color: antiquewhite; border-style: double; background-color: rgb(194, 66, 66);">Mata kuliah ini membahas tentang bagaimana membuat dan mengembangkan website pembelajaran</p>
+   
+    <h7>video pembelajaran</h7>
+    <!--cara bikin video-->
+<center><video controls src="uas organisasi belajar.mp4" style="height: 55%;width: 60%;"></video>
+</center>
+<br>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/wgeDmKOKPrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<center><img src="hoho.jpg" style="height: 55%;width: 60%;" alt="">
+</center>
+<center><audio controls src="TULUS - Cahaya (Official Lyric Video).mp3"></audio></center>
+</body>
+
+
+
+
+
+</html>
