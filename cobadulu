@@ -20,10 +20,23 @@
 <center><img src="hoho.jpg" style="height: 55%;width: 60%;" alt="">
 </center>
 <center><audio controls src="TULUS - Cahaya (Official Lyric Video).mp3"></audio></center>
+<br>
+<a href="https://www.youtube.com/">link</a>
+<br>
+<a href="cobadulu.html" target="_blank">ke halaman cobadulu</a>
+
+<ol>
+    <li>nomor 1</li>
+    <li>nomor 2</li>
+    <li>nomor 3</li>
+</ol>
+<br>
+<ul>
+    <li>home</li>
+    <li>back</li>
+</ul>
+
 </body>
-
-
-
 
 
 </html>
