@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <!--css eksternal-->
+        <link rel="stylesheet" href="styling.css">
+
+        <!--css internal-->
+        <!--cara stylingnya langsung panggil nama tag-->
+        <style>
+            *{box-sizing:border-box;
+                padding: 10px; margin: 0px;
+                height: 100%;
+                font-family: fantasy;}
+
+            body{background-color: aliceblue;
+                display: flex;
+                flex-direction: column;}
+
+            header{display: flex;
+                flex: 2;
+                font-size: 65pt;
+                font-style: normal;
+                font-weight: bolder;
+                background-color: aqua;
+                text-align: center;
+                justify-content: space-between;}
+
+            section{display: flex;
+                column-gap: 25px;
+                width: 100%;
+                flex: 10;
+                background-color: crimson;
+                font-size: 25pt;}
+
+            aside{flex: 4;
+                background-color: blueviolet;
+                font-size: 35pt;
+                display: flex;
+                width: 20%;}
+
+            main{display: flex;
+                flex: 8;
+                background-color: black;}
+
+            footer{display: flex;
+                flex: 1;
+                background-color: thistle;
+                font-size: 20pt;}
+            
+            article{background-color: aquamarine;
+                    width: 100%;}
+
+            ul{display: flex;
+                list-style: none;
+                margin-right: 5px;}
+            
+            li{margin-right: 20px;}
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>logo</h1>
+            <nav>
+                <ul>
+                    <li><a href="linksatu.html">home</a></li>
+                    <li><a href="linkdua.html">about</a></li>
+                    <li><a href="linktiga.html">contact</a></li>
+        </header>
+        <main>
+            <aside>
+                <a class="sidebar" href="#">Informasi Khusus</a>
+            <br>
+                 <a class="sidebar" href="#">Informasi Umum</a>
+            </aside>
+        </main>
+    </body>
