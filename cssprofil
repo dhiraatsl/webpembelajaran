@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <style>
+             *{box-sizing:border-box;
+                padding: 8px; margin: 8px;
+                height: 100%;
+                font-family: sans-serif;
+                color: rgb(255, 255, 255);}
+
+            body{background-color: rgb(206, 215, 233);
+                display: flex;
+                flex-direction: column;}
+
+            header{display: flex;
+                flex: 5;
+                font-size: 10spt;
+                font-style: normal;
+                font-weight: bolder;
+                color: rgb(29, 131, 63);
+                text-align: center;
+                justify-content: space-between;
+                background-image: url(bgdua.png);}
+
+            section{display: flex;
+                column-gap: 15px;
+                width: 50%;
+                height: 60%;
+                flex: 5;
+                background-color: #F7C04A;
+                font-size: 25pt;}
+
+            aside{flex: 8;
+                background-color: rgb(101, 105, 139);
+                font-size: 25pt;
+                display: flex;
+                width: 10%;}
+
+            main{display: flex;
+                flex: 3%;
+                height: fit-content;
+                background-color: #539165;}
+
+            footer{display: flex;
+                flex: 1;
+                background-color: #3F497F;
+                font-size: 12pt;}
+            
+            article{background-color: rgb(189, 110, 178);
+                    width: 65%;
+                    background-position: center;
+                    margin-right: 10px;
+                    font-size: 30px;
+                    position: center;}
+                    
+            ul{display: flex;
+                list-style: none;
+                margin-right: 5px;}
+            
+            li{margin-right: 10px;}
+
+            img{height: fit-content;
+                width: 85%;
+                position: center;
+                margin-right: 15px;}
+            
+            p{text-align: justify;
+                font-family:sans-serif;
+                position: center;
+                font-size: 15px;}
+            
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>TKIT KAWISTHA BEKASI</h1>
+            <nav>
+                <ul>
+                    <li><a href="profil.html">PROFIL</a></li>
+                    <li><a href="berita.html">BERITA</a></li>
+                    <li><a href="linktiga.html">PRESTASI</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ul>
+        </header>
+        <main>
+            <section>VISI DAN MISI</section>
+            <img src="bgprofil.jpeg" alt="">
+        </main>
+        <main>
+            <section>VISI
+                    <p>Mendidik generasi Cerdas, mandiri, berwawasan, dan berakhlakul karimah</p>
+            </section>
+        </main>
+        <main>
+            <section>MISI
+                <p>Mengajarkan dan membiasakan anak dengan aqidah akhlak islami, Mendidik anak kreatif dan inovatif, Membentuk karakter, kepribadian, dan kemandirian, serta Memberikan pengasuhan, layanan pendidikan bagi anak usia dini.</p>
+            </section>
+        </main>
+        <main>
+            <section>AKREDITASI
+                <p>Akreditasi Sekolah TKIT Kawistha Bekasi: B</p>
+            </section>
+        </main>
+        <main>
+            <section>FASILITAS
+                <p>TKIT Kawistha Bekasi dilengkapi oleh ruangan ber-AC, Pengajar berdedikasi tinggi, Sarana bermain dan APE menarik, serta lokasi aman dan nyaman.</p>
+            </section>
+        </main>
+        <footer>©Copyright 2023 |   All Rights Reserved   |</footer>
+    </body>
+    </html>
