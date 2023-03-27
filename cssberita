@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <style>
+             *{box-sizing:border-box;
+                padding: 8px; margin: 8px;
+                height: 100%;
+                font-family: sans-serif;
+                color: rgb(48, 45, 45);
+                text-align: center;}
+
+            body{background-color: rgb(206, 215, 233);
+                display: flex;
+                flex-direction: column;}
+
+            header{display: flex;
+                flex: 5;
+                font-size: 10spt;
+                font-style: normal;
+                font-weight: bolder;
+                color: rgb(29, 131, 63);
+                text-align: center;
+                justify-content: space-between;
+                background-image: url(bgdua.png);}
+
+            section{display: flex;
+                column-gap: 15px;
+                width: 50%;
+                height: 60%;
+                flex: 5;
+                background-color: #F7C04A;
+                font-size: 25pt;}
+
+            aside{flex: 8;
+                background-color: rgb(101, 105, 139);
+                font-size: 25pt;
+                display: flex;
+                width: 10%;}
+
+            main{display: flex;
+                flex: 3%;
+                height: fit-content;
+                background-color: #539165;
+                text-align: left;
+                color: beige;}
+
+            footer{display: flex;
+                flex: 1;
+                background-color: #3F497F;
+                font-size: 12pt;
+                color: beige;}
+            
+            article{background-color: rgb(189, 110, 178);
+                    width: 65%;
+                    background-position: center;
+                    margin-right: 10px;
+                    font-size: 30px;
+                    position: center;}
+                    
+            ul{display: flex;
+                list-style: none;
+                margin-right: 5px;}
+            
+            li{margin-right: 10px;}
+
+            img{height: fit-content;
+                width: 85%;
+                position: center;
+                margin-right: 15px;}
+            
+            p{text-align: initial;
+                font-family:sans-serif;
+                position: center;
+                font-size: 18px;}
+            
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>TKIT KAWISTHA BEKASI</h1>
+            <nav>
+                <ul>
+                    <li><a href="profil.html">PROFIL</a></li>
+                    <li><a href="berita.html">BERITA</a></li>
+                    <li><a href="linktiga.html">PRESTASI</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ul>
+        </header>
+        <main>
+            <P>Berita ○ Belajar, Bermain, dan Berenang</P>
+        </main>
+        <img src="kontenberita.png" alt="">
+        <h1>Belajar, Bermain, dan Berenang!</h1>
+        <p>Rabu, 14 Desember 2022. Adik-adik di TKIT Kawistha sedang berada di Kolam Renang Grand Residence Bekasi. Selain berenang dan bermain, adik-adik TKIT Kawistha Bekasi juga belajar, loh!</p>
+        <p>Ini adalah salah satu kegiatan rutin tahunan di TKIT Kawistha Bekasi, loh mom!</p>
+        <p>Nah selain menyenangkan, berenang yang termasuk jenis olahraga air ini juga punya banyak manfaat loh. Apa saja ya? Dengan berenang, kesehatan fisik adik-adik bisa menjadi lebih baik, juga bisa membuat tubuh adik-adik menjadi lebih tenang dan rileks. Selain itu, berenang juga dapat meningkatkan fungsi kecerdasan, meningkatkan perkembangan motorik, kognitif, dan meningkatkan apresiasi sosial dan emosional pada anak. </p>
+        <p>Nantikan keseruan bunda-bunda dan adik-adik TKIT Kawistha Bekasi di kegiatan selanjutnya.</p>
+        <footer>©Copyright 2023 |   All Rights Reserved   |</footer>
+    </body>
+    </html>
