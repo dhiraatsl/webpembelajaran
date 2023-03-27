@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <style>
+            *{box-sizing:border-box;
+                padding: 8px; margin: 8px;
+                height: 100%;
+                font-family: sans-serif;
+                color: rgb(255, 255, 255);}
+
+            body{background-color: rgb(206, 215, 233);
+                display: flex;
+                flex-direction: column;}
+
+            header{display: flex;
+                flex: 2;
+                font-size: 10spt;
+                font-style: normal;
+                font-weight: bolder;
+                color: rgb(29, 131, 63);
+                text-align: center;
+                justify-content: space-between;
+                background-image: url(bgdua.png);}
+
+            section{display: flex;
+                column-gap: 15px;
+                width: 50%;
+                height: 90%;
+                flex: 5;
+                background-color: #ecb848;
+                font-size: 15pt;
+                text-align: center;
+                font-style: bold;}
+
+            aside{flex: 8;
+                background-color: rgb(101, 105, 139);
+                font-size: 25pt;
+                display: flex;
+                width: 10%;}
+
+            main{display: flex;
+                flex: 8;
+                background-color: #539165;
+                font-size: 20px;}
+
+            footer{display: flex;
+                flex: 1;
+                background-color: #3F497F;
+                font-size: 12pt;}
+            
+            article{background-color: #e6cc96;
+                    width: 35%;
+                    height: 80%;
+                    background-position: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-size: 30px;
+                    position: center;}
+                    
+            ul{display: flex;
+                list-style: none;
+                margin-right: 5px;}
+            
+            li{margin-right: 20px;}
+
+            img{height: 65%;
+                width: 75%;
+                position: center;
+                margin-right: 25px;
+                margin-left: 45px;}
+            
+            p{text-align: center;
+                font-family:sans-serif;
+                position: center;
+                font-size: 15px;}
+            
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>TKIT KAWISTHA BEKASI</h1>
+            <nav>
+                <ul>
+                    <li><a href="profil.html">PROFIL</a></li>
+                    <li><a href="berita.html">BERITA</a></li>
+                    <li><a href="linktiga.html">PRESTASI</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ul>
+        </header>
+        <main>
+            Kontak
+        </main>
+        <main>
+            <section> Syarat Pendaftaran
+                <p>Mengisi Formulir Pendaftaran, Fotokopi Akta Kelahiran, Fotokopi Kartu Keluarga, dan Fotokopi KTP Orang tua.
+
+                </p>
+            </section>
+        </main>
+        <main>
+            <section>
+                <article>GIVE US A CALL
+                    <p><img src="logo call.png" alt="">Anda dapat menghubungi kami di: 087879831874, 0813178781260, dan 082111532003
+                    </p>
+                </article>
+                <article>ONLINE
+                    <p><img src="logo web.png">Kami akan selalu update perihal informasi baru mengenai akademik dan non akademik di website kami. 
+                    </p>
+                </article>
+            </section>
+        </main>
+        <main>
+            <section>ALAMAT
+                <p>Jl. Durian V Blok D7 No. 16, Vida Bekasi, Padurenan, Kec. Mustika Jaya, Kota Bekasi Prov. Jawa Barat</p>
+            </section>
+        </main>
+        <footer>©Copyright 2023 |   All Rights Reserved   |</footer>
+    </body>
+    </html>
